@@ -1,19 +1,43 @@
-#Logan changte
-print("Super Personality Quizarino")
-name = raw_input("Do you actually listen to rap or r&b?, Yes or No?")
-     if "Yes" print("Welcome to Super Personality Quizarino c:")
-     if "No" print ("Well this is gonna be a long ride then...")
-name = raw_input("What is your favorite rapper, Eminem, Kendrick Lamar, Tupac, The Weeknd, P reign, or Jhene Aiko")
-     if "Eminem" print("Good choice, time for the next question")
-     if "Kendrick Lamar" print("Interesting, time for the next question")
-     if "Tupac" print("A legend, time for the next question")
-     if "The Weeknd" print("A rising star, time for the next question")
-name = raw_input("What era of rap do you enjoy the most? Eighties, Ninties, Early two Thousanads, Mordern Artsists?")
-     if "Eighties" print("Most people would agree with you, on to the next question.")
-     if "Ninties" print("A very popular option, on to the next question.")
-     if "Early two Thousands" print("Not exactly the best time period of the genre, but you can think what you'd like. on to the next question.")
-     if "Modern Artists" print("There definetly are some shining gems in todays industry, on to the next question.")
-name = raw_input("Do you prefer Commercial Artists such as Drake, Lil Wayne, or Kendrick Lamar or Underground Preformers such as Geto Boys, Brother Ali, or Mick Jenkins?"
-                 if "Commercial Artists" print(" Not that surprising in the slightest, but a boring answer none the less. Let's move on to the next question.")
-                 if "Underground Preformers" print("A very broad answer, but respectable. Let's move on to the next question.")
-name = raw_input(
+#Logan change
+def Title_Page():
+    print("Super Personality Quizarino")
+
+def Ask_questions():
+    name = raw_input("Do you actually listen to rap or r&b?, Yes or No?")
+if "Yes":
+     print("Welcome to Super Personality Quizarino")
+if "No":
+     print ("Well this is gonna be a long ride then...")
+Jimmy = raw_input("What is your favorite rapper, Eminem, Kendrick Lamar, Tupac, Wiz Khalifa, Drake, or A$AP Mob")
+if "Eminem":
+    print("The God of the Game, time for the next question")
+if "Kendrick Lamar":
+    print("Trash, time for the next question")
+if "Tupac":
+    print("A legend, time for the next question")
+if "Wiz Khalifa":
+    print("A rising star, time for the next question")
+if "Drake":
+    print("Hold on were going to the next question")
+if "A$AP Mob":
+    print("I got hella more questions") 
+Timmy = raw_input("What era of rap do you enjoy the most? 80's, 90's, 2000's, 2010's?")
+if "80":
+    print("Most people would agree with you, on to the next question.")
+if "90":
+    print("A very popular option, on to the next question.")
+if "2000":
+    print("Not exactly the best time period of the genre, but you can think what you'd like. on to the next question.")
+if "2010":
+    print("There definetly are some shining gems in todays industry, on to the next question.")
+MOM = raw_input("Do you prefer Commercial Artists or Underground Preformers?"
+                if "Commercial Artis   ts":
+                print(" Not that surprising in the slightest, but a boring answer none the less. Let's move on to the next question.")
+                if "Underground Preformers":
+                print("A very broad answer, but respectable. Let's move on to the next question.")
+
+Hi = raw_input("Who do you prefer G-Eazy or Tech n9ne")
+                 if "G-Eazy":
+                print("A laid back fellow I see")
+                 if "Tech n9ne"
+                print("You are Insane in the Membrane")
