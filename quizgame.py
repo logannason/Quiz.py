@@ -1,7 +1,8 @@
 #Logan change
 def Title_Page():
     print("Super Personality Quizarino")
-
+#antonio wrote the questions
+#logan made functions and if statements
 def Ask_questions(Questions,):
     name = raw_input("Do you actually listen to rap or r&b?, Yes or No?")
     if "Yes":
@@ -41,3 +42,4 @@ def Ask_questions(Questions,):
         print("A laid back fellow I see")
     if "Tech n9ne":
         print("You are Insane in the Membrane")
+        #Logan wrote this
