@@ -43,4 +43,4 @@ def Ask_questions(Questions,):
     if "Tech n9ne":
         print("You are Insane in the Membrane")
         #Logan wrote this
-khjhjkjkkjjkh
+
