@@ -3,9 +3,21 @@ def Title_Page():
     print("Super Personality Quizarino")
 #antonio wrote the questions
 #logan made functions and if statements
+
+## You have one giant function with all of your quiz logic in it --
+## this should be your main loop. It doesn't seem like you've broken
+## any of the repetitive elements out into functions.
 def Ask_questions(Questions,):
     red = raw_input("Do you actually listen to rap or r&b?, Yes or No?")
-    if "Yes":
+    ## You seem confused about how these if statements will work --
+    ## presumably you mean to be comparing the answer to a
+    ## string. What you mean to write is something like
+    ## 
+    ## answer = raw_input(...)
+    ## if answer=="Yes":
+    ##     print...
+    ##
+    if "Yes": 
          print("Welcome to Super Personality Quizarino")
     if "No":
          print ("Well this is gonna be a long ride then...")
@@ -46,9 +58,9 @@ def Ask_questions(Questions,):
     if "Kendrick Lamar":
         print("There really isn't any other option, is there?")
     purple = raw_input("Who do you think has a better performance personality, A$AP Rocky or Tyler the Creator?")
-    if "A$AP Rocky"
+    if "A$AP Rocky":
         print("Lord Pretty Flacko the 2nd approves.")
-    if "Tyler the Creator"
+    if "Tyler the Creator":
         print("Look at that you earned the Wolf Gang's favor.")
     yellow = raw_input("
         #Logan wrote this
